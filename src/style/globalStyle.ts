@@ -3,7 +3,7 @@ import {
 } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css?family=Public+Sans:400,700,900&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=Chivo:400,700,900&display=swap');
 
   html,
   body {
