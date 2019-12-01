@@ -9,7 +9,6 @@ import {
 } from 'styled-components';
 
 import lightTheme from '../../style/lightTheme';
-import darkTheme from '../../style/darkTheme';
 
 import GlobalStyle from '../../style/globalStyle';
 
@@ -17,6 +16,7 @@ import Header from '../header';
 import Footer from '../footer';
 import Home from '../../routes/home';
 import About from '../../routes/about';
+import User from '../../routes/user';
 
 function App() {
   return (
@@ -27,7 +27,8 @@ function App() {
             <GlobalStyle />
             <Header />
             <Switch>
-              <Route path="/" exact component={Home} />
+              <Route path="/" exact component={User} />
+              <Route path="/home" exact component={Home} />
               <Route path="/about" exact component={About} />
             </Switch>
             <Footer />
